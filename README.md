@@ -8,7 +8,7 @@
 - **Context:** University project for "MEDII DE PROGRAMARE VIZUALĂ". Created a notepad type like the one from Windows.
 -**Features:** Added Night mode and more.
 
-##3.Proiect Tehnologii Web.
+## 3.Proiect Tehnologii Web.
 -**Context:** University project for Web Technologies.Created a site for a sport club using React,java and SQL.Integrated CRUD for players in the teams.
 
 ##4.Knapsack Problem.
