@@ -15,4 +15,4 @@
 - **Context:** Univeristy project for Genetics Algorithms.
 
 ## 5.Proiect_sql.
-- **Context:**University project for Databases Fundamentals.
+- **Context:** University project for Databases Fundamentals.
