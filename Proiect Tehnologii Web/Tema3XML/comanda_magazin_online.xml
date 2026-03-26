@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Comanda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="comanda_magazin_online.xsd">
+    <Nr_Comanda>12345</Nr_Comanda>
+    <Data_comanda>2024-04-22</Data_comanda>
+    <Client>
+        <Client_ID>98765</Client_ID>
+        <Nume>Ion Popescu</Nume>
+        <E-mail>ion.popescu2523@yahoo.com</E-mail>
+        <Adresa>
+            <Strada>Strada Carol 1, Nr. 115</Strada>
+            <Oras>Bucuresti</Oras>
+            <Cod_Postal>010101</Cod_Postal>
+            <Tara>Romania</Tara>
+        </Adresa>
+    </Client>
+    <Produse>
+        <Produs>
+            <ID_Produs>111</ID_Produs>
+            <Nume_produs>Telefon Mobil</Nume_produs>
+            <Cantitate>1</Cantitate>
+            <Pret>2000.00</Pret>
+            <Pret_total>2000.00</Pret_total>
+        </Produs>
+        <Produs>
+            <ID_Produs>222</ID_Produs>
+            <Nume_produs>Husa Telefon</Nume_produs>
+            <Cantitate>1</Cantitate>
+            <Pret>50.00</Pret>
+            <Pret_total>50.00</Pret_total>
+        </Produs>
+    </Produse>
+    <Comanda_Pret_Total>2050.00</Comanda_Pret_Total>
+</Comanda>

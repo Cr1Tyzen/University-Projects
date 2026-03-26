@@ -1,0 +1,14 @@
+D:\Notepad\MyNotepad\obj\Debug\net8.0-windows\MyNotepad.GeneratedMSBuildEditorConfig.editorconfig
+D:\Notepad\MyNotepad\obj\Debug\net8.0-windows\MyNotepad.AssemblyInfoInputs.cache
+D:\Notepad\MyNotepad\obj\Debug\net8.0-windows\MyNotepad.AssemblyInfo.cs
+D:\Notepad\MyNotepad\obj\Debug\net8.0-windows\MyNotepad.csproj.CoreCompileInputs.cache
+D:\Notepad\MyNotepad\bin\Debug\net8.0-windows\MyNotepad.exe
+D:\Notepad\MyNotepad\bin\Debug\net8.0-windows\MyNotepad.deps.json
+D:\Notepad\MyNotepad\bin\Debug\net8.0-windows\MyNotepad.runtimeconfig.json
+D:\Notepad\MyNotepad\bin\Debug\net8.0-windows\MyNotepad.dll
+D:\Notepad\MyNotepad\bin\Debug\net8.0-windows\MyNotepad.pdb
+D:\Notepad\MyNotepad\obj\Debug\net8.0-windows\MyNotepad.dll
+D:\Notepad\MyNotepad\obj\Debug\net8.0-windows\refint\MyNotepad.dll
+D:\Notepad\MyNotepad\obj\Debug\net8.0-windows\MyNotepad.pdb
+D:\Notepad\MyNotepad\obj\Debug\net8.0-windows\MyNotepad.genruntimeconfig.cache
+D:\Notepad\MyNotepad\obj\Debug\net8.0-windows\ref\MyNotepad.dll

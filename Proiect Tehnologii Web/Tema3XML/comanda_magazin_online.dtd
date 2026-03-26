@@ -1,0 +1,23 @@
+<!ELEMENT Comanda (Nr_Comanda, Data_comanda, Client, Produse, Comanda_Pret_Total)>
+<!ELEMENT Nr_Comanda (#PCDATA)>
+<!ELEMENT Data_comanda (#PCDATA)>
+
+<!ELEMENT Client (Client_ID, Nume, E-mail, Adresa)>
+<!ELEMENT Client_ID (#PCDATA)>
+<!ELEMENT Nume (#PCDATA)>
+<!ELEMENT E-mail (#PCDATA)>
+<!ELEMENT Adresa (Strada, Oras, Cod_Postal, Tara)>
+<!ELEMENT Strada (#PCDATA)>
+<!ELEMENT Oras (#PCDATA)>
+<!ELEMENT Cod_Postal (#PCDATA)>
+<!ELEMENT Tara (#PCDATA)>
+
+<!ELEMENT Produse (Produs+)> 
+<!ELEMENT Produs (ID_Produs, Nume_produs, Cantitate, Pret, Pret_total)>
+<!ELEMENT ID_Produs (#PCDATA)>
+<!ELEMENT Nume_produs (#PCDATA)>
+<!ELEMENT Cantitate (#PCDATA)>
+<!ELEMENT Pret (#PCDATA)>
+<!ELEMENT Pret_total (#PCDATA)>
+
+<!ELEMENT Comanda_Pret_Total (#PCDATA)>

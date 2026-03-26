@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Comanda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Nr_Comanda" type="xs:string"/>
+                <xs:element name="Data_comanda" type="xs:date"/>  <!-- foloseste formatul An-luna-zi udpa standardul xsd -->
+                <xs:element name="Client">
+                    <xs:complexType> 
+                        <xs:sequence>   
+                            <xs:element name="Client_ID" type="xs:string"/>
+                            <xs:element name="Nume" type="xs:string"/>
+                            <xs:element name="E-mail" type="xs:string"/>
+                            <xs:element name="Adresa">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Strada" type="xs:string"/>
+                                        <xs:element name="Oras" type="xs:string"/>
+                                        <xs:element name="Cod_Postal" type="xs:string"/>
+                                        <xs:element name="Tara" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Produse">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Produs" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ID_Produs" type="xs:string"/>
+                                        <xs:element name="Nume_produs" type="xs:string"/>
+                                        <xs:element name="Cantitate" type="xs:int"/>
+                                        <xs:element name="Pret" type="xs:decimal"/>
+                                        <xs:element name="Pret_total" type="xs:decimal"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Comanda_Pret_Total" type="xs:decimal"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
